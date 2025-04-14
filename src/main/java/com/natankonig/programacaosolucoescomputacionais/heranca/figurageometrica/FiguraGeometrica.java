@@ -18,6 +18,9 @@ public class FiguraGeometrica {
     public void setCor(String cor) {
         this.cor = cor;
     }
+    public double getArea() {
+        return 0;
+    }
     public void leitura() {
         setCor(JOptionPane.showInputDialog("Digite a Cor"));
     }
